@@ -1,0 +1,10 @@
+fibonacci() {
+      this.num1 = parseInt(prompt("Digite a quantidade de termos que deseja obter da sequência de Fibonacci: "))
+      let sequencia = [0, 1]
+      for (let i = 2; i < this.num1 + 1; i++) {
+        sequencia.push(sequencia[i - 2] + sequencia[i - 1])
+      }
+      this._historico.push(` [${sequencia}]`)
+      return (`A sequênica da fibonacci de ${this.num1} é = [${sequencia}]`)
+    }
+    

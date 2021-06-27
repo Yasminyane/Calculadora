@@ -5,5 +5,4 @@ fatorial() {
         fatorial = fatorial * i
       }
       this._historico.push(` ${this.num1}! =  ${fatorial}`)
-      return (`${this.num1}! é igual: ${fatorial}`)
-    }
+}

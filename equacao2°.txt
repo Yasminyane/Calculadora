@@ -14,5 +14,5 @@ equacao() {
         console.log("Tem duas raízes X2= " + ((- this.num2 - Math.sqrt(this.delta)) / 2 * this.num1))
       }
       this._historico.push(` ${this.num1}x² + ${this.num2}x + ${this.num3} = 0 => x’ = ${(- this.num2 + Math.sqrt(this.delta)) / 2 * this.num1} e x" = ${(- this.num2 - Math.sqrt(this.delta)) / 2 * this.num1}`)
-    }
+}
   

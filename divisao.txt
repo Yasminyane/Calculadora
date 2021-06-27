@@ -3,6 +3,5 @@ dividir() {
       this.num2 = parseInt(prompt("Digite o segundo número: "))
       this.resultado = this.num1 / this.num2
       this._historico.push(` ${this.num1} / ${this.num2} = ${this.resultado}`)
-      return (`${this.num1} / ${this.num2} = ${this.resultado}`)
-    }
+}
   
