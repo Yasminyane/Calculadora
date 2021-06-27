@@ -1,0 +1,6 @@
+area() {
+      this.num1 = parseInt(prompt("Digite o raio da circunferência: "))
+      this.resultado = Math.PI * Math.pow(this.num1, 2)
+      this._historico.push(`3.14 * (${this.num1} ^ 2) = ${this.resultado}`)
+      return (`3,14 * ${this.num1} ^ 2 = ${this.resultado}`)
+    }

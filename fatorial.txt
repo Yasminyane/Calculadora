@@ -1,0 +1,9 @@
+fatorial() {
+      this.num1 = parseInt(prompt("Digite o número:"))
+      let fatorial = 1
+      for (let i = 1; i <= this.num1; i++) {
+        fatorial = fatorial * i
+      }
+      this._historico.push(` ${this.num1}! =  ${fatorial}`)
+      return (`${this.num1}! é igual: ${fatorial}`)
+    }

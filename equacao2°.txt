@@ -1,0 +1,18 @@
+equacao() {
+      alert("===> A lei de formação para uma equação do 2° é: ax² + bx + c = 0, a partir disso:")
+      this.num1 = prompt("Informe o coficiente a:")
+      this.num2 = prompt("Informe o coficiente b:")
+      this.num3 = prompt("Informe o coficiente c:")
+      this.delta = (this.num2 * this.num2) - (4 * this.num1 * this.num3)
+      if (this.delta < 0) {
+        console.log("Não tem raízes reais")
+      } else if (this.delta === 0) {
+        console.log("Só tem uma raiz = " + ((-this.num2 + Math.sqrt(this.delta)) / 2 * this.num1))
+  
+      } else {
+        console.log("Tem duas raízes X1= " + ((- this.num2 + Math.sqrt(this.delta)) / 2 * this.num1))
+        console.log("Tem duas raízes X2= " + ((- this.num2 - Math.sqrt(this.delta)) / 2 * this.num1))
+      }
+      this._historico.push(` ${this.num1}x² + ${this.num2}x + ${this.num3} = 0 => x’ = ${(- this.num2 + Math.sqrt(this.delta)) / 2 * this.num1} e x" = ${(- this.num2 - Math.sqrt(this.delta)) / 2 * this.num1}`)
+    }
+  
